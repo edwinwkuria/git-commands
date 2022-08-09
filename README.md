@@ -27,8 +27,9 @@ Knowing and understanding the git commands can be a boost to you. I have shared 
 File States: Working Directory > Staged > Committed.
 
 `git diff --staged` => Shows the difference between ommitted vs staged files.   
-`git diff` => Shows the difference between working directory vs staged files.   
+`git diff` => Shows the difference between working directory vs staged files.    
 
+`git switch <branch_name>` => Go to specified branch.
 `git checkout <branch_name>` => Go to specific branch.    
 `git checkout -b <branch_name>`  => Create a new branch and go to that branch     
 `git merge <branch_name>` => Merge current branch with the specified branch.          
