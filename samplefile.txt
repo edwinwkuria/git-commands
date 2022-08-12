@@ -1,0 +1,7 @@
+git add samplefile.txt
+
+git commit -am "second commit"
+
+git commit -am "third commit"
+
+git commit -am "final commit"
