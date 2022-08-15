@@ -3,10 +3,11 @@
 `echo "string"` `git hash-object -stdin` generates a SHA1 hash like the one used in git.     
 `git branch -m main` => renames master branch to main.     
 `git cat-file <hash>` => displays content of a hash/commit in git.     
-*Options: `-p` peek ,  `-t` type, `-p` print (at the end).*       
+*Options: `-p` peek ,  `-t` type, `-p` print (at the end).* 
+
+
 `git count-objects` => Counts the number of objects.      
 *Object types {Blobs, Trees, Commits, Tags}*        
-
 
 
 
