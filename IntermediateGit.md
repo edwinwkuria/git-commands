@@ -12,7 +12,9 @@
 
 
 >Branch => reference to a commit.      
-*found in .git/refs/<branchname>*     
+*found in .git/refs/<branchname>*    
+
+
 **Current branch is found in HEAD file**      
 `git checkout <commit>/<tag>` => Switches to a commit or tag.      
 `git merge` => Normal commit with two parents.      
