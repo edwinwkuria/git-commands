@@ -7,6 +7,9 @@
 `git count-objects` => Counts the number of objects.      
 *Object types {Blobs, Trees, Commits, Tags}*        
 
+
+
+
 >Branch => reference to a commit.      
 *found in .git/refs/<branchname>*     
 **Current branch is found in HEAD file**      
