@@ -23,9 +23,9 @@
 ###### git rebase
 >rebases the commit to look like a single branch.
 
-    o - o 
-o <        > o => `git merge` 
-    o - o 
+        o - o       
+    o <        > o => `git merge`      
+        o - o 
 
 o - o - o - o  => `git rebase`
        
