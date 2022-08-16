@@ -36,7 +36,7 @@ o - o - o - o  => `git rebase`
 ###### git tags
 >A pointer to a commit. 
 `git tag <name>` => A light weight tag that points to a commit.     
-`git tag <name> <message>` => Annotated tags, branch like.    
+`git tag <name> -a -m <message>` => Annotated tags, branch like.    
 `git checkout <tag>`  => Goes to a specific tag.     
 >Path : .git/refs/tags.     
 
