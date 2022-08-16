@@ -27,7 +27,7 @@
     o <        > o => `git merge`      
         o - o 
 
-o - o - o - o  => `git rebase`
+    o - o - o - o  => `git rebase`
        
 
 `git rebase <branchname>` => Adds current branch on top of branch.
