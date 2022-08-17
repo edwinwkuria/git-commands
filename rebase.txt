@@ -6,11 +6,7 @@ git commit -am "Second commit"
 
 git log -10 --oneline
 
-<<<<<<< HEAD
-//This is a cherry pick commit. 
-=======
 git commit -am "added new"
 
 git rebase -i 5b33953
 
->>>>>>> b9a2ef8... rebase done
