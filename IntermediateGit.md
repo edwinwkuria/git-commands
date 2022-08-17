@@ -80,3 +80,5 @@ pick, squash, ....
 ##### git cherry pick
 >Can be used to pick a bugfix across versions.      
 `git cherry-pick <commit-sha>` => appends commit.    
+
+
