@@ -46,3 +46,37 @@
 `git fetch` => Get commit and related objects. 
 `git pull` => fetch and merge.      
  
+###### branches
+`git -m <currentname> <newname>` | `git -m <newname>`  => Renames branch | renames current branch      
+`git -d <branchname>` | `git -D <branchname>` => Delete branch | force delete branch      
+
+###### merging
+>Target branch => To merge to, Source branch => To merge from.       
+`git merge <sourcebranch>`  => Merge.    
+`git show <hash> ` => shows the files.
+file marker (---), file marker (+++), dev/null for new or deleted files, @@ markers for chunk headers.      
+<<<<<<HEAD (current branch) ====== (separate the two)  merge branch >>>>>>>>Main       
+`git merge --abort` => Stop merge.     
+{Evil commit} => Code added as part of a merge.        
+
+###### git diff
+`git diff` | `git diff -w` | `git diff <commit>` | `git diff <branch1> <branch2>` | `git diff <commit> <commit>` => Changed and not staged for commit. | Ignore whitespaces          
+`git diff --cached` | `git diff --cached <commit>` =>  Staged changes | staged changes for a commit.     
+`git diff HEAD` => All changes       
+
+###### gitignore
+Link to documentation [Gitignore] (https://github.com/github/gitignore)    
+>Uses regular expressions.    
+
+##### git rebase
+`git rebase` => Clean up local history.     
+`git merge -base <source> <destination>`  =>      
+`git rebase -i <sha>` =>     
+pick, squash, ....     
+`git rebase <branch>` =>     
+`git reflog ` =>      
+`git pull --rebase` => pull when remote is rebased. 
+
+##### git cherry pick
+>Can be used to pick a bugfix across versions.      
+`git cherry-pick <commit-sha>` => appends commit.    
