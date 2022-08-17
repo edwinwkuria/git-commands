@@ -1,0 +1,7 @@
+git add rebase.txt
+
+git commit -am "first commit"
+
+git commit -am "Second commit"
+
+git log -10 --oneline
