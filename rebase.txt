@@ -5,3 +5,8 @@ git commit -am "first commit"
 git commit -am "Second commit"
 
 git log -10 --oneline
+
+git commit -am "added new"
+
+git rebase -i 5b33953
+
